@@ -18,7 +18,7 @@ let myStack = [
         picture: "./Assets/call.png",
     },
     {
-        rate: 80,
+        rate: 90,
         experienceYear: 3 + " yrs+",
         Stack: "Figma", 
         picture: "./Assets/call.png",

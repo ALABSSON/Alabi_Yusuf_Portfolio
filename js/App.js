@@ -1,5 +1,4 @@
 
-
 let stackCardWrap = document.querySelector(".stackCardWrap")
 
 for (let i = 0; i < myStack.length; i++) {
@@ -21,11 +20,15 @@ for (let i = 0; i < myStack.length; i++) {
 
 let projectCardWrap = document.querySelector(".projectCardWrap")
 
+function HTMTCSSJS() {
+    alert("hbhbhb")
+}
+
 for (let i = 0; i < projectArray.length; i++) {
     projectCardWrap.innerHTML += `
     <a href="" class="projectCardLink">
         <div class="projectkCard1">
-            <img src="${projectArray[i].picture}" alt="">
+            <img src="${projectArray[i].picture}" alt="projectImg">
         </div>
         <div class="projectkCard2">
             <h1> ${projectArray[i].projectName} </h1>
@@ -41,3 +44,4 @@ for (let i = 0; i < projectArray.length; i++) {
 
 import myStack from "./myStack.js"
 import projectArray from "./myProject.js"
+import {reactProject} from "./myProject.js"

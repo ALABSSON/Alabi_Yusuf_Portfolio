@@ -20,11 +20,10 @@ for (let i = 0; i < myStack.length; i++) {
 
 let projectCardWrap = document.querySelector(".projectCardWrap")
 
-function HTMTCSSJS() {
-    alert("hbhbhb")
-}
+let a = 2
 
-for (let i = 0; i < projectArray.length; i++) {
+if (a = 2) {
+    for (let i = 0; i < projectArray.length; i++) {
     projectCardWrap.innerHTML += `
     <a href="" class="projectCardLink">
         <div class="projectkCard1">
@@ -36,8 +35,9 @@ for (let i = 0; i < projectArray.length; i++) {
         </div>
 
     </a>
-    `
-    
+    `     }     
+    } else {
+        alert("jhbhbhcbc")
 }
 
 

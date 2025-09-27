@@ -18,6 +18,12 @@ let myStack = [
         picture: "./Assets/call.png",
     },
     {
+        rate: 80,
+        experienceYear: 2 + " yrs+",
+        Stack: "React JS", 
+        picture: "./Assets/call.png",
+    },
+    {
         rate: 90,
         experienceYear: 3 + " yrs+",
         Stack: "Figma", 
@@ -33,12 +39,6 @@ let myStack = [
         rate: 90,
         experienceYear: 5 + " yrs+",
         Stack: "Github", 
-        picture: "./Assets/call.png",
-    },
-    {
-        rate: 50,
-        experienceYear: 2 + " yrs+",
-        Stack: "React JS", 
         picture: "./Assets/call.png",
     },
     {

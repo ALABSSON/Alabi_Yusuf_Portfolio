@@ -18,27 +18,25 @@ for (let i = 0; i < myStack.length; i++) {
     
 }
 
+
+
 let projectCardWrap = document.querySelector(".projectCardWrap")
 
-let a = 2
-
-if (a = 2) {
     for (let i = 0; i < projectArray.length; i++) {
     projectCardWrap.innerHTML += `
-    <a href="" class="projectCardLink">
-        <div class="projectkCard1">
-            <img src="${projectArray[i].picture}" alt="projectImg">
-        </div>
-        <div class="projectkCard2">
-            <h1> ${projectArray[i].projectName} </h1>
-            <p class="projectInfo"> ${projectArray[i].projectInfo} </p>
-        </div>
-
+    <div class="job-card">
+    <a href="${projectArray[i].projectLink}" target="_blank" class="card-link">
+      <img src="${projectArray[i].picture}" alt="Project thumbnail" class="card-image" />
+      <div class="card-content">
+        <h3 class="card-title"> ${projectArray[i].projectName} </h3>
+        <p class="card-description"> ${projectArray[i].projectInfo} </p>
+        <span class="card-button"> View Project → </span>
+      </div>
     </a>
+    </div>
+    
     `     }     
-    } else {
-        alert("jhbhbhcbc")
-}
+
 
 
 

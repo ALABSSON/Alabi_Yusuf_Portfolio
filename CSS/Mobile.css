@@ -1,0 +1,168 @@
+@media (max-width: 991px) {
+
+header ul {
+  display: none;
+}
+
+
+
+#homePage {
+  flex-direction: column;
+  padding: 5px 10px;
+  height: 70vh;
+}
+
+.homePageLeft {
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.homePageRight {
+  width: 50%;
+  height: 35%;
+  position: absolute;
+  top: 90px;
+  right: 0;
+}
+
+.homePageRightCircle {
+  width: 100%;
+  height: 100%;
+}
+
+#stackPage {
+  height: 70vh;
+  padding: 10px;
+}
+
+#stackPage > h1 {
+  font-size: 25px;
+}
+
+.stackCard { 
+  width: 200px;
+}
+
+#aboutMe { 
+    padding: 10px;
+}
+
+#aboutMe > h1 {
+  font-size: 25px;
+}
+
+.aboutMeDiv {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMeDivleft {
+  width: 60%;
+  height: 20%;
+
+}
+
+.aboutMeDivRight {
+  width: 100%;
+  height: 80%;
+}
+
+.aboutMeDivRight p {
+  font-size: 14px;
+}
+
+#PortfolioPage { 
+  padding: 9px;
+}
+
+#PortfolioPage > h1 {
+  font-size: 25px;
+}
+
+.projectStack { 
+  font-size: 12px;
+}
+
+.ProjectWrapONE {
+  padding: 5px;
+  height: 500PX;
+  align-items: flex-start;
+}
+.ProjectWrapTWO {
+  padding: 5px;
+  height: 500PX;
+  align-items: flex-start;
+}
+.ProjectWrapTHREE {
+  padding: 5px;
+  height: 500PX;
+  align-items: flex-start;
+}
+.ProjectWrapFOUR {
+  padding: 5px;
+  height: 500PX;
+  align-items: flex-start;
+}
+.ProjectWrapFIVE {
+  padding: 5px;
+  height: 500PX;
+  align-items: flex-start;
+}
+
+.job-card { 
+  width: 200PX;
+}
+
+#contactMe { 
+  padding: 10PX;
+  height: 40vh;
+}
+
+#contactMe h1 {
+  font-size: 25px;
+}
+
+form input { 
+  width: 200px;
+}
+
+footer {
+  padding: 10px;
+  height: 25vh;
+}
+
+footer ul h2 { 
+  font-size: 15px;
+}
+
+.menuFoot {
+  height: 35px;
+}
+
+.menuFoot a {
+  font-size: 12px;
+}
+
+.socialFoot {
+  width: 100%;
+  padding: 5px;
+}
+
+.socialFoot a {
+  width: 30px;
+  height: 30px;
+}
+
+footer span {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+}
+    
+
+}

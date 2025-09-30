@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 900px) {
 
 header ul {
   display: none;
@@ -126,7 +126,7 @@ header ul {
 }
 
 form input { 
-  width: 200px;
+  width: 180px;
 }
 
 footer {

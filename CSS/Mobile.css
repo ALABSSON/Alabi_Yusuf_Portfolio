@@ -42,7 +42,7 @@ header ul {
 }
 
 .stackCard { 
-  width: 200px;
+  width: 40%;
 }
 
 #aboutMe { 
@@ -91,16 +91,19 @@ header ul {
   height: 500PX;
   align-items: flex-start;
 }
+
 .ProjectWrapTWO {
   padding: 5px;
   height: 500PX;
   align-items: flex-start;
 }
+
 .ProjectWrapTHREE {
   padding: 5px;
   height: 500PX;
   align-items: flex-start;
 }
+
 .ProjectWrapFOUR {
   padding: 5px;
   height: 500PX;
@@ -113,7 +116,7 @@ header ul {
 }
 
 .job-card { 
-  width: 200PX;
+  width: 40%;
 }
 
 #contactMe { 

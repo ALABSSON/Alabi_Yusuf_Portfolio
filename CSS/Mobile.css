@@ -132,6 +132,7 @@ header ul {
 
 form input { 
   width: 45%;
+  float: left;
 }
 
 footer {
@@ -170,4 +171,12 @@ footer span {
 }
     
 
+}
+
+
+@media (max-width: 991px) {
+form input { 
+  width: 40%;
+  float: left;
+}
 }

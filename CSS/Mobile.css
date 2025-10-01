@@ -1,10 +1,60 @@
 @media (max-width: 991px) {
 
+:root {
+  --Primary-color: black;
+  --secondary-color: lightgrey;
+  --tertiary-color: rgb(255, 102, 0); 
+  --text1-color: black;
+  --text2-color: white;
+  --leftRightPadding: 100px;
+  --topButtomPadding: 20px;
+}
+
+header {
+  padding: 10px;
+  justify-content: space-between;
+}
+
+header h2 {
+  width: 50%; 
+  font-size: 18px;
+}
+
+header a {
+  width: 20%;
+}
+
+header a button {
+  width: 100%;
+  background-color: var(--Primary-color);
+  border:  1px solid white;
+  color: var(--text2-color);
+}
+
 header ul {
   display: none;
 }
 
+.menuDiv {
+  width: 15%;
+  display: flex;
+}
 
+.showMenu {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hideMenu {
+  width: 50px;
+  height: 40px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 
 #homePage {
   flex-direction: column;
@@ -12,11 +62,30 @@ header ul {
   height: 70vh;
 }
 
+.homePageLeft h2 {
+  font-size: 25px;
+}
+
 .homePageLeft {
   justify-content: center;
   width: 100%;
   position: relative;
   height: 100%;
+  
+}
+
+.homePageLeftDiv1 {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.homePageLeftDiv1 a {
+  width: 45%;
+}
+
+.homePageLeftDiv1 a button {
+  width: 100%;
 }
 
 .homePageRight {

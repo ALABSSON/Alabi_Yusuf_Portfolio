@@ -33,6 +33,15 @@ header a button {
 
 header ul {
   display: none;
+  height: 80vh;
+  width: 80%;
+  position: absolute;
+  background-color: var(--tertiary-color);
+  left: 0;
+  top: 0;
+  margin-top: 70px;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .menuDiv {

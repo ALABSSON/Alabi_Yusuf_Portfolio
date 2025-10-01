@@ -432,7 +432,8 @@ header button:hover, .hiremebtn:hover {
 }
 
 .projectStack li {
-  padding: 8px 15px;
+  width: 15%;
+  padding: 5px;
   background: var(--Primary-color);
   color: var(--text2-color);
   border-radius: 15px;
@@ -441,6 +442,7 @@ header button:hover, .hiremebtn:hover {
   border: 1px solid;
   border-color: var(--secondary-color);
   box-shadow: 0px 5px 5px black;
+  text-align: center;
 }
 
 .ProjectWrapONE {

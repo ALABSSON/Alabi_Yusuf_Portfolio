@@ -1,14 +1,17 @@
 const showMenu = document.querySelector(".showMenu")
+const hideMenu = document.querySelector(".hideMenu")
 const menuList = document.querySelector("#menuList")
 
 showMenu.onclick =()=> {
-    if (showMenu.innerText === "Show") {
       menuList.style.display = "flex"
-      showMenu.innerHTML = "Hide"
-    } else {
+      showMenu.style.display = "none"
+      hideMenu.style.display = "flex"
+}
+
+hideMenu.onclick =()=> {
       menuList.style.display = "none"
-      showMenu.innerHTML = "Show"
-    }
+      showMenu.style.display = "flex"
+      hideMenu.style.display = "none"
 }
 
 

@@ -1,3 +1,12 @@
+const showMenu = document.querySelector(".showMenu")
+const hideMenu = document.querySelector(".hideMenu")
+const menuList = document.querySelector("#menuList")
+
+showMenu.onclick =()=> {
+  menuList.style.display = "flex"
+  showMenu.innerHTML = "Hide"
+}
+
 
 let stackCardWrap = document.querySelector(".stackCardWrap")
 
